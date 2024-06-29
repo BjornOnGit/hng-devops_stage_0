@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<html lang="en">
+<head>
+  <title>Eze Francis' Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="bubble-loader">
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+    </div>
+  </div>
+  <header>
+    <h1>Welcome to Eze Francis' Portfolio</h1>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Ohayo!, my name is Eze Francis, and I am a DevOps Engineer.</p>
+      <p>I am currently participating in the <a rel="noopener" href="https://hng.tech" target="_blank">HNG Internship</a>.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Username: Eze Francis Ogonnaya</p>
+      <p>Email: ezefrancis049@gmail.com</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Eze Francis</p>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        document.getElementById('loader').style.display = 'none';
+        document.body.style.overflow = 'auto'; // Enable scrolling
+      }, 1000); // 10 seconds delay
+    });
+  </script>
+</body>
+</html>
