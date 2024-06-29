@@ -121,4 +121,4 @@ server {
 
 ![Website Screenshot](img/static_site_screenshot.png)
 
-This documentation will help you install NGINX, clone your project from GitHub, configure NGINX to serve your static site, and restart NGINX to apply the configuration.
+This documentation will help you install NGINX, clone your project from GitHub, configure NGINX to serve your static site, and restart NGINX to apply the configuration and serve the static website at the public IP of your Droplet instance.
